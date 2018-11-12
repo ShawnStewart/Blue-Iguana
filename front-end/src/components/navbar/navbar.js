@@ -33,6 +33,18 @@ export default class nav extends Component {
             <a
               className={
                 "navbar-menu-link" +
+                (this.state.activeMenuItem === "About" ? " active" : "")
+              }
+              href="localhost:3000"
+              onClick={() => this.handleMenuItemClick("About")}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              className={
+                "navbar-menu-link" +
                 (this.state.activeMenuItem === "Locations" ? " active" : "")
               }
               href="localhost:3000"
