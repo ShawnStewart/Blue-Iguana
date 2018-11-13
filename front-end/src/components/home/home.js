@@ -6,8 +6,8 @@ import "./home.css";
 
 export default function home() {
   return (
-    <div>
-      <img src={CarWash} alt="Car Wash" />
+    <div className="landing">
+      <div className="landing-header" />
     </div>
   );
 }
