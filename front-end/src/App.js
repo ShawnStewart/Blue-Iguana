@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 
 // Components
 import Navbar from "./components/navbar/navbar";
+import Home from "./components/home/home";
 
 // Styling
 import "./App.css";
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <Home />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
