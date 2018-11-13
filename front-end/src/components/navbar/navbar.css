@@ -65,7 +65,7 @@
   background-color: rgb(87, 113, 171);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 993px) {
   .navbar {
     display: flex;
   }
