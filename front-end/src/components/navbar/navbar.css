@@ -1,5 +1,6 @@
 .navbar {
-  background-color: rgb(87, 113, 171);
+  background-color: rgb(2, 66, 116);
+  /* background-color: rgb(87, 113, 171); */
 }
 
 .navbar-header {
@@ -65,7 +66,7 @@
   background-color: rgb(87, 113, 171);
 }
 
-@media (min-width: 993px) {
+/* @media (min-width: 993px) {
   .navbar {
     display: flex;
   }
@@ -81,4 +82,4 @@
     height: 100%;
     align-self: center;
   }
-}
+} */
