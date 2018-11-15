@@ -1,0 +1,126 @@
+.landing-header {
+  /* background: linear-gradient(to right, #0a1927 0, rgba(125, 185, 232, 0) 100%); */
+  background-image: url(../../img/CarWash1.jpg);
+  background-position: 50% 25%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 775px;
+}
+
+.landing-header-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(70, 120, 175, 0.4),
+    rgba(125, 185, 232, 0) 100%
+  );
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement-header {
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  text-shadow: -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.mission-statement {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2em;
+  color: white;
+  text-shadow: -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.landing-section1 {
+  background-color: rgb(248, 239, 239);
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-detail {
+  width: 30%;
+}
+
+.detail-heading {
+  margin: 0;
+  color: rgba(2, 66, 116, 0.8);
+  font-size: 2em;
+}
+
+.detail-content {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.6;
+}
+
+.landing-email-list {
+  /* background-color: rgb(36, 98, 176); */
+  background-color: rgb(2, 66, 116);
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-list-header {
+  margin: 0;
+  font-size: 2.2em;
+  width: 40%;
+  text-align: center;
+}
+
+.email-list-content {
+  font-size: 1.2em;
+}
+
+.email-list-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-list-input {
+  box-sizing: border-box;
+  width: 75%;
+  height: 60px;
+  font-size: 1.3em;
+  padding: 0 10px;
+  border-radius: 4px;
+  /* border: 2px solid #aaa; */
+  border: none;
+}
+
+.email-list-btn {
+  box-sizing: border-box;
+  height: 60px;
+  width: 20%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  background-color: rgb(2, 166, 89);
+  border-radius: 4px;
+  /* border: 2px solid #aaa; */
+  border: none;
+  transition: 0.3s;
+}
+
+.email-list-btn:hover {
+  background-color: rgb(1, 149, 80);
+}
+
+.email-list-btn:active {
+  background-color: rgb(1, 141, 75);
+}

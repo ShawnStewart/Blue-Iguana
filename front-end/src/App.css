@@ -1,3 +1,16 @@
+.bi-container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
 .App {
   /* text-align: center; */
 }
